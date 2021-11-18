@@ -1,6 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Dancing+Script:wght@400;500;600;700&family=Pacifico&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Dancing+Script:wght@400;500;600;700&family=Pacifico&display=swap");
 
 /* ./src/index.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.background {
+  background-image: linear-gradient(
+      104.08deg,
+      #e5dbff 11.94%,
+      rgba(112, 72, 232, 0.4) 94.74%
+    ),
+    url("./assets/background.jpg");
+  background-size: cover;
+  height: 100vh;
+}

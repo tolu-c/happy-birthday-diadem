@@ -10,13 +10,15 @@ import Nav from "./components/Nav";
 
 function App() {
   return (
-    <Router>
-      <Nav />
-      <Routes>
-        <Route path="/" element={<Home />} exact />
-        <Route path="gallery" element={<Gallery />} />
-      </Routes>
-    </Router>
+      <div className='background relative'>
+        <Router>
+          <Nav />
+          <Routes>
+            <Route path="/" element={<Home />} exact />
+            <Route path="gallery" element={<Gallery />} />
+          </Routes>
+        </Router>
+      </div>
   );
 }
 
