@@ -75,7 +75,7 @@ function Home() {
                     the bottom of my heart, wanna let you know how much i love
                     you, how much annoying you are, how much i am proud of you
                     to have you as a sister, friend, playmate,how good of a
-                    dancer, teacher, fried,woman that you are becoming. Happy
+                    dancer, teacher, woman that you are becoming. Happy
                     Birthday, Lots of Love...
                     <Icon
                       icon="si-glyph:feather"
